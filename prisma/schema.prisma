@@ -1,0 +1,56 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Book {
+  id            String   @id @default(cuid())
+  title         String
+  authorId      String
+  author        Author   @relation(fields: [authorId], references: [id])
+  datePublished DateTime
+  holderId      String?
+  holder        User?    @relation(fields: [holderId], references: [id])
+
+  records Record[]
+}
+
+model Author {
+  id          String   @id @default(cuid())
+  firstName   String
+  lastName    String
+  dateOfBirth DateTime
+
+  books Book[]
+}
+
+model User {
+  id       String @id @default(cuid())
+  username String @unique
+  password String
+
+  bookRecords Record[]
+  books       Book[]
+}
+
+model Record {
+  id           String    @id @default(cuid())
+  bookId       String
+  userId       String
+  borrowedDate DateTime  @default(now())
+  returnedDate DateTime?
+
+  book Book @relation(fields: [bookId], references: [id])
+  user User @relation(fields: [userId], references: [id])
+
+  @@unique([bookId, userId, borrowedDate])
+  @@index([bookId])
+  @@index([userId])
+}

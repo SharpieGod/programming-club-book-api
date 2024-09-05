@@ -1,0 +1,137 @@
+[
+  {
+    "firstName": "Jane",
+    "lastName": "Austen",
+    "dateOfBirth": "1775-12-16T00:00:00Z"
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Twain",
+    "dateOfBirth": "1835-11-30T00:00:00Z"
+  },
+  {
+    "firstName": "George",
+    "lastName": "Orwell",
+    "dateOfBirth": "1903-06-25T00:00:00Z"
+  },
+  {
+    "firstName": "Virginia",
+    "lastName": "Woolf",
+    "dateOfBirth": "1882-01-25T00:00:00Z"
+  },
+  {
+    "firstName": "Leo",
+    "lastName": "Tolstoy",
+    "dateOfBirth": "1828-09-09T00:00:00Z"
+  },
+  {
+    "firstName": "Fyodor",
+    "lastName": "Dostoevsky",
+    "dateOfBirth": "1821-11-11T00:00:00Z"
+  },
+  {
+    "firstName": "Herman",
+    "lastName": "Melville",
+    "dateOfBirth": "1819-08-01T00:00:00Z"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Dickinson",
+    "dateOfBirth": "1830-12-10T00:00:00Z"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Dickens",
+    "dateOfBirth": "1812-02-07T00:00:00Z"
+  },
+  {
+    "firstName": "Gabriel",
+    "lastName": "Garcia Marquez",
+    "dateOfBirth": "1927-03-06T00:00:00Z"
+  },
+  {
+    "firstName": "J.K.",
+    "lastName": "Rowling",
+    "dateOfBirth": "1965-07-31T00:00:00Z"
+  },
+  {
+    "firstName": "J.R.R.",
+    "lastName": "Tolkien",
+    "dateOfBirth": "1892-01-03T00:00:00Z"
+  },
+  {
+    "firstName": "Aldous",
+    "lastName": "Huxley",
+    "dateOfBirth": "1894-07-26T00:00:00Z"
+  },
+  {
+    "firstName": "Franz",
+    "lastName": "Kafka",
+    "dateOfBirth": "1883-07-03T00:00:00Z"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Steinbeck",
+    "dateOfBirth": "1902-02-27T00:00:00Z"
+  },
+  {
+    "firstName": "Oscar",
+    "lastName": "Wilde",
+    "dateOfBirth": "1854-10-16T00:00:00Z"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Joyce",
+    "dateOfBirth": "1882-02-02T00:00:00Z"
+  },
+  {
+    "firstName": "Margaret",
+    "lastName": "Atwood",
+    "dateOfBirth": "1939-11-18T00:00:00Z"
+  },
+  {
+    "firstName": "Ray",
+    "lastName": "Bradbury",
+    "dateOfBirth": "1920-08-22T00:00:00Z"
+  },
+  {
+    "firstName": "Stephen",
+    "lastName": "King",
+    "dateOfBirth": "1947-09-21T00:00:00Z"
+  },
+  {
+    "firstName": "Toni",
+    "lastName": "Morrison",
+    "dateOfBirth": "1931-02-18T00:00:00Z"
+  },
+  {
+    "firstName": "Sylvia",
+    "lastName": "Plath",
+    "dateOfBirth": "1932-10-27T00:00:00Z"
+  },
+  {
+    "firstName": "Marguerite",
+    "lastName": "Duras",
+    "dateOfBirth": "1914-04-04T00:00:00Z"
+  },
+  {
+    "firstName": "William",
+    "lastName": "Faulkner",
+    "dateOfBirth": "1897-09-25T00:00:00Z"
+  },
+  {
+    "firstName": "Jack",
+    "lastName": "Kerouac",
+    "dateOfBirth": "1922-03-12T00:00:00Z"
+  },
+  {
+    "firstName": "Ayn",
+    "lastName": "Rand",
+    "dateOfBirth": "1905-02-02T00:00:00Z"
+  },
+  {
+    "firstName": "T.S.",
+    "lastName": "Eliot",
+    "dateOfBirth": "1888-09-26T00:00:00Z"
+  }
+]

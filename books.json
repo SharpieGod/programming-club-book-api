@@ -1,0 +1,392 @@
+[
+  {
+    "title": "Pride and Prejudice",
+    "authorId": "cm0ooj6mw0000tr0w9oj5729r",
+    "datePublished": "1813-01-28T00:00:00.000Z"
+  },
+  {
+    "title": "Emma",
+    "authorId": "cm0ooj6mw0000tr0w9oj5729r",
+    "datePublished": "1815-12-23T00:00:00.000Z"
+  },
+  {
+    "title": "The Adventures of Tom Sawyer",
+    "authorId": "cm0ooj6mw0001tr0w152yi7az",
+    "datePublished": "1876-06-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Adventures of Huckleberry Finn",
+    "authorId": "cm0ooj6mw0001tr0w152yi7az",
+    "datePublished": "1884-12-10T00:00:00.000Z"
+  },
+  {
+    "title": "1984",
+    "authorId": "cm0ooj6mw0002tr0wfs4aigpp",
+    "datePublished": "1949-06-08T00:00:00.000Z"
+  },
+  {
+    "title": "Animal Farm",
+    "authorId": "cm0ooj6mw0002tr0wfs4aigpp",
+    "datePublished": "1945-08-17T00:00:00.000Z"
+  },
+  {
+    "title": "Mrs. Dalloway",
+    "authorId": "cm0ooj6mw0003tr0w13ih5slu",
+    "datePublished": "1925-05-14T00:00:00.000Z"
+  },
+  {
+    "title": "To the Lighthouse",
+    "authorId": "cm0ooj6mw0003tr0w13ih5slu",
+    "datePublished": "1927-05-05T00:00:00.000Z"
+  },
+  {
+    "title": "War and Peace",
+    "authorId": "cm0ooj6mw0004tr0whyg6twhi",
+    "datePublished": "1869-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "Anna Karenina",
+    "authorId": "cm0ooj6mw0004tr0whyg6twhi",
+    "datePublished": "1877-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "Crime and Punishment",
+    "authorId": "cm0ooj6mw0005tr0wo6t4do3v",
+    "datePublished": "1867-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "authorId": "cm0ooj6mw0005tr0wo6t4do3v",
+    "datePublished": "1880-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "Moby Dick",
+    "authorId": "cm0ooj6mw0006tr0wo79x7rm5",
+    "datePublished": "1851-10-18T00:00:00.000Z"
+  },
+  {
+    "title": "Bartleby, the Scrivener",
+    "authorId": "cm0ooj6mw0006tr0wo79x7rm5",
+    "datePublished": "1853-11-17T00:00:00.000Z"
+  },
+  {
+    "title": "Wuthering Heights",
+    "authorId": "cm0ooj6mw0007tr0wjqnopalj",
+    "datePublished": "1847-12-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Bell Jar",
+    "authorId": "cm0ooj6mw0007tr0wjqnopalj",
+    "datePublished": "1963-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "Great Expectations",
+    "authorId": "cm0ooj6mw0008tr0wi9ije3xm",
+    "datePublished": "1861-08-01T00:00:00.000Z"
+  },
+  {
+    "title": "A Tale of Two Cities",
+    "authorId": "cm0ooj6mw0008tr0wi9ije3xm",
+    "datePublished": "1859-04-30T00:00:00.000Z"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "authorId": "cm0ooj6mw0009tr0wywtd03dw",
+    "datePublished": "1967-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Love in the Time of Cholera",
+    "authorId": "cm0ooj6mw0009tr0wywtd03dw",
+    "datePublished": "1985-03-25T00:00:00.000Z"
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "authorId": "cm0ooj6mw000atr0wzpnkdmnc",
+    "datePublished": "1997-06-26T00:00:00.000Z"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "authorId": "cm0ooj6mw000atr0wzpnkdmnc",
+    "datePublished": "1998-07-02T00:00:00.000Z"
+  },
+  {
+    "title": "The Hobbit",
+    "authorId": "cm0ooj6mw000btr0wh2fzai86",
+    "datePublished": "1937-09-21T00:00:00.000Z"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "authorId": "cm0ooj6mw000btr0wh2fzai86",
+    "datePublished": "1954-07-29T00:00:00.000Z"
+  },
+  {
+    "title": "Brave New World",
+    "authorId": "cm0ooj6mw000ctr0ws55uhisr",
+    "datePublished": "1932-08-31T00:00:00.000Z"
+  },
+  {
+    "title": "Island",
+    "authorId": "cm0ooj6mw000ctr0ws55uhisr",
+    "datePublished": "1962-08-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Metamorphosis",
+    "authorId": "cm0ooj6mw000dtr0wnb17f8x6",
+    "datePublished": "1915-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Trial",
+    "authorId": "cm0ooj6mw000dtr0wnb17f8x6",
+    "datePublished": "1925-04-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "authorId": "cm0ooj6mw000etr0wo5eboh6q",
+    "datePublished": "1939-04-14T00:00:00.000Z"
+  },
+  {
+    "title": "Of Mice and Men",
+    "authorId": "cm0ooj6mw000etr0wo5eboh6q",
+    "datePublished": "1937-02-06T00:00:00.000Z"
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "authorId": "cm0ooj6mw000ftr0w5u56txkt",
+    "datePublished": "1890-07-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Importance of Being Earnest",
+    "authorId": "cm0ooj6mw000ftr0w5u56txkt",
+    "datePublished": "1895-02-14T00:00:00.000Z"
+  },
+  {
+    "title": "Ulysses",
+    "authorId": "cm0ooj6mw000gtr0wrn589pxc",
+    "datePublished": "1922-02-02T00:00:00.000Z"
+  },
+  {
+    "title": "A Portrait of the Artist as a Young Man",
+    "authorId": "cm0ooj6mw000gtr0wrn589pxc",
+    "datePublished": "1916-12-29T00:00:00.000Z"
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "authorId": "cm0ooj6mw000htr0wwm14ko49",
+    "datePublished": "1985-09-01T00:00:00.000Z"
+  },
+  {
+    "title": "Oryx and Crake",
+    "authorId": "cm0ooj6mw000htr0wwm14ko49",
+    "datePublished": "2003-09-17T00:00:00.000Z"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "authorId": "cm0ooj6mw000itr0w6x5qk5b5",
+    "datePublished": "1953-10-19T00:00:00.000Z"
+  },
+  {
+    "title": "Dandelion Wine",
+    "authorId": "cm0ooj6mw000itr0w6x5qk5b5",
+    "datePublished": "1957-05-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Shining",
+    "authorId": "cm0ooj6mw000jtr0wrb22xhrm",
+    "datePublished": "1977-01-28T00:00:00.000Z"
+  },
+  {
+    "title": "It",
+    "authorId": "cm0ooj6mw000jtr0wrb22xhrm",
+    "datePublished": "1986-09-15T00:00:00.000Z"
+  },
+  {
+    "title": "Beloved",
+    "authorId": "cm0ooj6mw000ktr0wp9vaoga8",
+    "datePublished": "1987-09-16T00:00:00.000Z"
+  },
+  {
+    "title": "Song of Solomon",
+    "authorId": "cm0ooj6mw000ktr0wp9vaoga8",
+    "datePublished": "1977-04-13T00:00:00.000Z"
+  },
+  {
+    "title": "The Bell Jar",
+    "authorId": "cm0ooj6mw000ltr0wpnag0jnl",
+    "datePublished": "1963-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "Ariel",
+    "authorId": "cm0ooj6mw000ltr0wpnag0jnl",
+    "datePublished": "1965-10-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Lover",
+    "authorId": "cm0ooj6mw000mtr0w0irlj2nv",
+    "datePublished": "1984-03-01T00:00:00.000Z"
+  },
+  {
+    "title": "Moderato Cantabile",
+    "authorId": "cm0ooj6mw000mtr0w0irlj2nv",
+    "datePublished": "1958-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "As I Lay Dying",
+    "authorId": "cm0ooj6mw000ntr0wxfcfd733",
+    "datePublished": "1930-05-06T00:00:00.000Z"
+  },
+  {
+    "title": "Light in August",
+    "authorId": "cm0ooj6mw000ntr0wxfcfd733",
+    "datePublished": "1932-10-01T00:00:00.000Z"
+  },
+  {
+    "title": "On the Road",
+    "authorId": "cm0ooj6mw000otr0wrxernpgq",
+    "datePublished": "1957-09-05T00:00:00.000Z"
+  },
+  {
+    "title": "Big Sur",
+    "authorId": "cm0ooj6mw000otr0wrxernpgq",
+    "datePublished": "1962-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "Atlas Shrugged",
+    "authorId": "cm0ooj6mw000ptr0wruxc9m9y",
+    "datePublished": "1957-10-10T00:00:00.000Z"
+  },
+  {
+    "title": "The Fountainhead",
+    "authorId": "cm0ooj6mw000ptr0wruxc9m9y",
+    "datePublished": "1943-05-07T00:00:00.000Z"
+  },
+  {
+    "title": "The Waste Land",
+    "authorId": "cm0ooj6mw000qtr0w0mgm6urz",
+    "datePublished": "1922-10-15T00:00:00.000Z"
+  },
+  {
+    "title": "Four Quartets",
+    "authorId": "cm0ooj6mw000qtr0w0mgm6urz",
+    "datePublished": "1943-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "authorId": "cm0ooj6mw0000tr0w9oj5729r",
+    "datePublished": "1951-07-16T00:00:00.000Z"
+  },
+  {
+    "title": "The Outsiders",
+    "authorId": "cm0ooj6mw0001tr0w152yi7az",
+    "datePublished": "1967-04-24T00:00:00.000Z"
+  },
+  {
+    "title": "Lord of the Flies",
+    "authorId": "cm0ooj6mw0002tr0wfs4aigpp",
+    "datePublished": "1954-09-17T00:00:00.000Z"
+  },
+  {
+    "title": "The Giver",
+    "authorId": "cm0ooj6mw0003tr0w13ih5slu",
+    "datePublished": "1993-04-26T00:00:00.000Z"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "authorId": "cm0ooj6mw0004tr0whyg6twhi",
+    "datePublished": "1979-10-12T00:00:00.000Z"
+  },
+  {
+    "title": "The Road",
+    "authorId": "cm0ooj6mw0005tr0wo6t4do3v",
+    "datePublished": "2006-09-26T00:00:00.000Z"
+  },
+  {
+    "title": "Life of Pi",
+    "authorId": "cm0ooj6mw0006tr0wo79x7rm5",
+    "datePublished": "2001-09-11T00:00:00.000Z"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "authorId": "cm0ooj6mw0007tr0wjqnopalj",
+    "datePublished": "1962-10-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Great Gatsby",
+    "authorId": "cm0ooj6mw0008tr0wi9ije3xm",
+    "datePublished": "1925-04-10T00:00:00.000Z"
+  },
+  {
+    "title": "Brave New World",
+    "authorId": "cm0ooj6mw0009tr0wywtd03dw",
+    "datePublished": "1932-08-30T00:00:00.000Z"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "authorId": "cm0ooj6mw000atr0wzpnkdmnc",
+    "datePublished": "1951-07-16T00:00:00.000Z"
+  },
+  {
+    "title": "Gone with the Wind",
+    "authorId": "cm0ooj6mw000btr0wh2fzai86",
+    "datePublished": "1936-06-30T00:00:00.000Z"
+  },
+  {
+    "title": "Catch-22",
+    "authorId": "cm0ooj6mw000ctr0ws55uhisr",
+    "datePublished": "1961-11-10T00:00:00.000Z"
+  },
+  {
+    "title": "The Trial",
+    "authorId": "cm0ooj6mw000dtr0wnb17f8x6",
+    "datePublished": "1925-04-01T00:00:00.000Z"
+  },
+  {
+    "title": "Of Mice and Men",
+    "authorId": "cm0ooj6mw000etr0wo5eboh6q",
+    "datePublished": "1937-02-06T00:00:00.000Z"
+  },
+  {
+    "title": "Dracula",
+    "authorId": "cm0ooj6mw000ftr0w5u56txkt",
+    "datePublished": "1897-05-26T00:00:00.000Z"
+  },
+  {
+    "title": "Frankenstein",
+    "authorId": "cm0ooj6mw000gtr0wrn589pxc",
+    "datePublished": "1818-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Hunger Games",
+    "authorId": "cm0ooj6mw000htr0wwm14ko49",
+    "datePublished": "2008-09-14T00:00:00.000Z"
+  },
+  {
+    "title": "Divergent",
+    "authorId": "cm0ooj6mw000itr0w6x5qk5b5",
+    "datePublished": "2011-05-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Maze Runner",
+    "authorId": "cm0ooj6mw000jtr0wrb22xhrm",
+    "datePublished": "2009-10-06T00:00:00.000Z"
+  },
+  {
+    "title": "Beloved",
+    "authorId": "cm0ooj6mw000ktr0wp9vaoga8",
+    "datePublished": "1987-09-16T00:00:00.000Z"
+  },
+  {
+    "title": "The Bell Jar",
+    "authorId": "cm0ooj6mw000ltr0wpnag0jnl",
+    "datePublished": "1963-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "authorId": "cm0ooj6mw000mtr0w0irlj2nv",
+    "datePublished": "1962-06-01T00:00:00.000Z"
+  },
+  {
+    "title": "A Brave New World",
+    "authorId": "cm0ooj6mw000qtr0w0mgm6urz",
+    "datePublished": "1932-08-30T00:00:00.000Z"
+  }
+]
