@@ -193,7 +193,58 @@ app.post("/likeBook", async (req, res) => {
   }
 });
 
-app.post("/borrowBook");
+app.post("/borrowBook", async (req, res) => {
+  const body = specifyUser.safeParse(req.body);
+
+  if (!body.success)
+    return res.status(400).send({ message: "Invalid input." });
+
+  const { bookId, userId } = body.data;
+
+  try {
+    const userCheck = await db.user.findFirst({
+      where: {
+        id: userId,
+      },
+    });
+    console.log(userCheck);
+    if (!userCheck)
+      return res.status(400).send({ message: "User doesn't exist." });
+
+    const bookCheck = await db.book.findFirst({
+      where: {
+        id: bookId,
+      },
+    });
+
+    if (!bookCheck || (bookCheck && bookCheck.holderId))
+      return res.status(400).send({
+        message:
+          "Book doesn't exist or someone is already borrowing it.",
+      });
+
+    await db.book.update({
+      where: {
+        id: bookId,
+      },
+      data: {
+        holderId: userId,
+      },
+    });
+
+    await db.record.create({
+      data: {
+        bookId,
+        userId,
+        borrowedDate: new Date(),
+      },
+    });
+
+    res.send({ message: "Book borrowed successfully.p" });
+  } catch {
+    res.status(500).send({ message: "An unknown error occurred." });
+  }
+});
 
 app.listen(3000, "localhost", () => {
   console.log("listening on http://localhost:3000");
