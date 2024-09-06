@@ -18,6 +18,7 @@ model Book {
   datePublished DateTime
   holderId      String?
   holder        User?    @relation(fields: [holderId], references: [id])
+  usersWhoLiked User[]   @relation("BookLike")
 
   records Record[]
 }
@@ -38,6 +39,7 @@ model User {
 
   bookRecords Record[]
   books       Book[]
+  likedBooks  Book[]   @relation("BookLike")
 }
 
 model Record {

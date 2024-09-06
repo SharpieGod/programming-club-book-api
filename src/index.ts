@@ -69,7 +69,6 @@ app.post("/register", async (req, res) => {
     const userCheck = await db.user.findFirst({
       where: {
         username,
-        password: hashedPassword,
       },
     });
 
@@ -102,6 +101,10 @@ const bookListBody = z.object({
     .string()
     .regex(/^[A-Z][a-z]+ [A-Z][a-z]+$/)
     .optional(),
+  authorId: z
+    .string()
+    .regex(/^c[a-z0-9]{24}$/)
+    .optional(),
   take: z.number().optional(),
   offset: z.number().optional(),
   orderBy: z
@@ -117,16 +120,17 @@ app.get("/books", async (req, res) => {
   if (!body.success)
     return res.status(400).send({ message: "Invalid input." });
 
-  const { author, offset, take, orderBy } = body.data;
+  const { author, offset, take, orderBy, authorId } = body.data;
 
   res.send({
     books: await db.book.findMany({
-      take: take,
+      take,
       skip: offset,
       where: {
         author: {
           firstName: author?.split(" ")[0],
           lastName: author?.split(" ")[1],
+          id: authorId,
         },
       },
       orderBy,
@@ -136,6 +140,60 @@ app.get("/books", async (req, res) => {
     }),
   });
 });
+
+const specifyUser = z.object({
+  userId: z.string().regex(/^c[a-z0-9]{24}$/),
+  bookId: z.string().regex(/^c[a-z0-9]{24}$/),
+});
+
+const likeBookBody = z
+  .object({
+    dislike: z.boolean().default(false),
+  })
+  .and(specifyUser);
+app.post("/likeBook", async (req, res) => {
+  const body = likeBookBody.safeParse(req.body);
+
+  if (!body.success)
+    return res.status(400).send({ message: "Invalid input." });
+
+  try {
+    const { bookId, userId, dislike } = body.data;
+
+    if (!dislike)
+      await db.user.update({
+        where: {
+          id: userId,
+        },
+        data: {
+          likedBooks: {
+            connect: {
+              id: bookId,
+            },
+          },
+        },
+      });
+    else
+      await db.user.update({
+        where: {
+          id: userId,
+        },
+        data: {
+          likedBooks: {
+            disconnect: {
+              id: bookId,
+            },
+          },
+        },
+      });
+
+    res.send({ message: "Book liked successfully." });
+  } catch {
+    res.status(500).send({ message: "An unknown error occurred." });
+  }
+});
+
+app.post("/borrowBook");
 
 app.listen(3000, "localhost", () => {
   console.log("listening on http://localhost:3000");
