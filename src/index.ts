@@ -96,6 +96,57 @@ app.post("/register", async (req, res) => {
   }
 });
 
+const searchBookBody = z.object({
+  title: z.string(),
+  author: z
+    .string()
+    .regex(/^[A-Z][a-z]+ [A-Z][a-z]+$/)
+    .optional(),
+  authorId: z
+    .string()
+    .regex(/^c[a-z0-9]{24}$/)
+    .optional(),
+});
+
+app.post("/searchBooks", async (req, res) => {
+  const body = searchBookBody.safeParse(req.body);
+
+  if (!body.success)
+    return res.status(400).send({ message: "Invalid input." });
+
+  const { title, author, authorId } = body.data;
+
+  try {
+    const books = await db.book.findMany({
+      where: {
+        title: {
+          contains: title,
+        },
+        author: {
+          firstName: author?.split(" ")[0],
+          lastName: author?.split(" ")[1],
+          id: authorId,
+        },
+      },
+      include: {
+        author: true,
+      },
+    });
+
+    if (!books)
+      return res.status(404).send({
+        message: "No books found.",
+      });
+
+    res.send({
+      message: "Book found successfully.",
+      books: books,
+    });
+  } catch {
+    res.status(500).send({ message: "An unknown error occurred." });
+  }
+});
+
 const bookListBody = z.object({
   author: z
     .string()
